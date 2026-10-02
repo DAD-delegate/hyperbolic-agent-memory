@@ -1,0 +1,5 @@
+(load "geom.lisp")
+(load "store.lisp")
+(load "compile.lisp")
+(ham-compile-file "m0.sexp")
+(quit)

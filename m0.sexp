@@ -1,0 +1,8 @@
+(root "hyperbolic-agent-memory M0" 0 0)
+(add 1 goal "Park session state between Grok Bot conversations")
+(add 2 file "Documents/DAD-tools/hyperbolic-agent-memory")
+(add 2 decision "External store, not a KV-cache replacement")
+(add 2 failure "Python package discarded")
+(save "session.sexp" 0 0)
+(load "session.sexp" 0 0)
+(check 0 0 0)
